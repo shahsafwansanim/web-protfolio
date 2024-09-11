@@ -7,7 +7,7 @@
     "wdth" 100;
 }
 .secondary-bg{
-color: #FFF8F3;
+color: #090909;
 
 }
 .text-primary{
@@ -18,7 +18,7 @@ color: #474747;
 
 }
 .btn-primary{
-background-color: #FD6E0A;
+background-color: #e46307;
 font-weight: bold;
 font-size: 20px;
 color: white;
@@ -31,6 +31,7 @@ border-radius: 5px;
 background-image: url('../images/developer.png'), url('../images/header_bg.png');
 background-repeat: no-repeat;
 background-position: top left, bottom right;
+
 }
 /* Nav Styles*/
  nav{
@@ -38,6 +39,7 @@ background-position: top left, bottom right;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
+    
 }
 .nav-title{
    font-weight: 800;
@@ -139,4 +141,24 @@ gap: 24px;
 }
 .resume-download{
 margin-top: 50px;
+}
+footer{
+    padding: 130px 230px;
+display: flex;
+gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+height: 64px;
+border-radius: 5px;
+background-color: rgb(227, 143, 143);
+display: block;
+width: 100%;
+padding: 10px 20px;
+margin-bottom: 24px;
+border: none;
+
 }
