@@ -60,6 +60,10 @@ display: flex;
 align-items: center;
 
 }
+.down{
+    width: 30px;
+ padding: opx 10px;
+}
 .banner{
   display:flex ;
 justify-content: space-between;
