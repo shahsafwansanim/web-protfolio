@@ -166,10 +166,27 @@ border: none;
     display: none;
 }
 @media  screen and (max-width: 576px) {
-.skills-container footer, .resume-container, footer, .about-items{
+.skills-container footer, .resume-container, .banner, nav, nav > ul, footer, .about-items{
 
     flex-direction: column;
       
+}
+nav > ul{
+    gap: 20px;
+
+}
+.btn-primary{
+    margin-bottom: 20px;
+}
+.banner{
+    margin: 20px;
+}
+.banner-profile-pic{
+    width: 100%;
+}
+.header{
+
+    background-image: none;
 }
 footer, .about{
     padding: 0px;
