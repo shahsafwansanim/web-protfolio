@@ -166,7 +166,7 @@ border: none;
     display: none;
 }
 @media  screen and (max-width: 576px) {
-.skills-container footer, .resume-container, .banner, nav, nav > ul, footer, .about-items{
+.skills-container, .resume-container, .banner, nav, nav > ul, footer, .about-items{
 
     flex-direction: column;
       
